@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>new proj</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+
+        {{!-- 3ayez a48al el header bta3e --}}
+        
+        <h2> {{>header}} </h2>
+
+        <h2> {{title}} in hbs page</h2>
+        <h4>{{desc}}</h4>
+
+        <form id="form1">
+
+            <input type="text" id="address">
+            <button> Search for weather </button>
+
+        </form>
+
+        <p id="location"></p>
+            <p id="forecast"></p>
+            <p id="error"></p>
+
+ 
+        <h2> {{>footer}} </h2>
+
+    <script src="js/script.js"></script>
+    </body>
+
+
+</html>
